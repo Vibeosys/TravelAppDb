@@ -1,0 +1,2 @@
+ALTER TABLE `TravelDB`.`options` 
+ADD COLUMN `Active` INT NOT NULL DEFAULT 1 COMMENT '' AFTER `QuestionId`;
