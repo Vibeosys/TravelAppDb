@@ -1,0 +1,6 @@
+ALTER TABLE `TravelDB`.`stat_conf` 
+ADD COLUMN `Active` BIT(1) NOT NULL DEFAULT 1 COMMENT '' AFTER `UpdatedDate`;
+CHANGE COLUMN `Key` `ConfigKey` VARCHAR(45) NOT NULL COMMENT '' ;
+CHANGE COLUMN `Value` `ConfigValue` VARCHAR(45) NOT NULL COMMENT '' ;
+ALTER TABLE `TravelDB`.`stat_conf` 
+CHANGE COLUMN `Active` `Active` INT NOT NULL COMMENT '' ;

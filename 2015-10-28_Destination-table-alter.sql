@@ -1,0 +1,3 @@
+ALTER TABLE `TravelDB`.`destination` 
+CHANGE COLUMN `Lat` `Latitude` FLOAT NOT NULL COMMENT '' ,
+CHANGE COLUMN `Long` `Longitude` FLOAT NOT NULL COMMENT '';

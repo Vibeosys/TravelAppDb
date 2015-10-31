@@ -19,3 +19,15 @@ INSERT INTO `TravelDB`.`images` (`ImageId`, `ImagePath`, `CreatedDate`, `UserId`
 INSERT INTO `TravelDB`.`images` (`ImageId`, `ImagePath`, `CreatedDate`, `UserId`, `DestinationId`) VALUES ('8', 'D:\\GitPhpWebsites\\NewTravelWebAppRepo\\tmp\\UserProfile\\camera.png', '85', '2', '1');
 INSERT INTO `TravelDB`.`images` (`ImageId`, `ImagePath`, `CreatedDate`, `UserId`, `DestinationId`) VALUES ('9', 'D:\\GitPhpWebsites\\NewTravelWebAppRepo\\tmp\\UserProfile\\camera.png', '98', '8', '9');
 INSERT INTO `TravelDB`.`images` (`ImageId`, `ImagePath`, `CreatedDate`, `UserId`, `DestinationId`) VALUES ('10', 'D:\\GitPhpWebsites\\NewTravelWebAppRepo\\tmp\\UserProfile\\camera.png', '23', '2', '4');
+
+
+SYNC TABLE INSERT STATEMENT
+
+INSERT INTO `TravelDB`.`sync` (`SyncAutoNo`, `UserId`, `JsonSync`, `TableName`, `UpdatedDate`) VALUES ('1', '7695ec70-92de-426d-879d-0396f03b2938', '{\"UserId\":\"5\",\"DestId\":\"10\",\"CommentText\":\"wonderful\"}', 'Comment', '2015-10-20 21:12:45'),
+('2', '7695ec70-92de-426d-879d-0396f03b2938', '{\"UserId\":\"5\",\"DestId\":\"10\"}', 'Like', '2015-10-20 21:12:55'),
+('3', '7695ec70-92de-426d-879d-0396f03b2938', '{\"DestId\":\"11\",\"DestName\":\"Shirdi\",\"Lat\":\"36.99645\",\"Long\":\"36.99645\"}', 'Destination', '2015-10-20 21:13:45'),
+('4', '7695ec70-92de-426d-879d-0396f03b2938', '{\"ImageId\":\"5\",\"ImagePath\":\"http://myimg.jpg\",\"UserId\":\"3\",\"DestId\":\"6\"}', 'Images', '2015-10-20 21:15:45'),
+('5', '7695ec70-92de-426d-879d-0396f03b2938', '{\"AnswerId\":\"5\",\"UserId\":\"10\",\"DestId\":\"1\",\"OptionId\":\"2\"}', 'Answer', '2015-10-20 21:22:45'),
+('6', '7695ec70-92de-426d-879d-0396f03b2938','{\"QuestionId\":\"3\",\"QuestionText\":\"How are you?\"}', 'Question', '2015-10-20 21:32:45'),
+('7', '7695ec70-92de-426d-879d-0396f03b2938','{\"OptionId\":\"9\",\"QuestionText\":\"good\",\"QuestionId\":\"3\"}', 'Options', '2015-10-20 21:32:45'),
+('7', '7695ec70-92de-426d-879d-0396f03b2938','{\"OptionId\":\"10\",\"QuestionText\":\"bad\",\"QuestionId\":\"3\"}', 'Options', '2015-10-20 21:32:45')
