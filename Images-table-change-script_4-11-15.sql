@@ -1,2 +1,2 @@
-ALTER TABLE `TravelDB`.`images` 
+ALTER TABLE `images` 
 CHANGE COLUMN `ImagePath` `ImagePath` VARCHAR(500) NULL DEFAULT NULL COMMENT '' ;

@@ -1,4 +1,4 @@
-ALTER TABLE `TravelDB`.`user` 
+ALTER TABLE `user` 
 CHANGE COLUMN `Active` `Active` INT NULL DEFAULT 0 COMMENT '' ;
-ALTER TABLE `TravelDB`.`user` 
+ALTER TABLE `user` 
 CHANGE COLUMN `PhotoUrl` `PhotoUrl` VARCHAR(250) NULL DEFAULT NULL COMMENT '' ;
